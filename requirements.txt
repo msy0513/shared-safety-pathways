@@ -1,0 +1,9 @@
+torch>=2.1
+transformers>=4.43
+accelerate>=0.30
+numpy
+tqdm
+pandas                    # data/scripts
+requests                  # data/scripts/translate.py (LLM backend)
+openai>=1.0               # data/scripts/translate.py (LLM backend)
+# optional: bitsandbytes (--optimizer adamw8bit)
